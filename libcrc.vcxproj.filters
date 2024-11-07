@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{b94dfb6b-9649-464f-90a3-3320d6b591eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{5c79605a-c015-43ee-b0b0-7354b9f6b8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\precalc">
+      <UniqueIdentifier>{b3176d44-b312-40c7-b003-dea39fb63577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\precalc">
+      <UniqueIdentifier>{481cee29-d053-48ca-a9c7-9bb020a45738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tab">
+      <UniqueIdentifier>{c42fda0a-c9de-4e3a-b377-59e58c9040d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\checksum.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="precalc\precalc.h">
+      <Filter>Header Files\precalc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\crc8.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc16.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc32.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc64.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crcccitt.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crcdnp.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crckrmit.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crcsick.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nmea-chk.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="precalc\crc32_table.c">
+      <Filter>Source Files\precalc</Filter>
+    </ClCompile>
+    <ClCompile Include="precalc\crc64_table.c">
+      <Filter>Source Files\precalc</Filter>
+    </ClCompile>
+    <ClCompile Include="precalc\precalc.c">
+      <Filter>Source Files\precalc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tab\gentab32.inc">
+      <Filter>tab</Filter>
+    </None>
+    <None Include="tab\gentab64.inc">
+      <Filter>tab</Filter>
+    </None>
+  </ItemGroup>
+</Project>
